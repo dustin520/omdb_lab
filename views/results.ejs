@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Movie Search Results</title>
+  </head>
+  <body>
+  	<h1>Results</h1>
+  	<ul>
+  		<% movieList.forEach(function (movie) { %>
+  		<li><a href="/search/movie/<%= movie.imdbID %>"> <%= movie.Title %> </a></li>
+
+  		<% }) %>
+
+  	</ul>
+    <button><a href="/">Back to Search</button>
+  </body>
+</html>

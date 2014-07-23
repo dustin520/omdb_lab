@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+ 	<h1><%= detailList.Title %></h1>
+ 	<% JSON.stringify(detailList) %>
+ 	<img src="<%= detailList.Poster %>"><br>
+ 	<%= detailList.Year+" "+detailList.Runtime %><br>
+ 	<%= detailList.Genre %>
+ 	<br>
+ 	<button><a href="watch_later.ejs">Save for Later</a></button>
+ 	<button><a href="/">Back to Search</a></button>
+  </body>
+</html>

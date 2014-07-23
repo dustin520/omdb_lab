@@ -1,0 +1,26 @@
+{
+  "name": "omdb_lab",
+  "version": "0.0.1",
+  "description": "api and crud lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustin520/omdb_lab.git"
+  },
+  "author": "dustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustin520/omdb_lab/issues"
+  },
+  "homepage": "https://github.com/dustin520/omdb_lab",
+  "dependencies": {
+    "body-parser": "^1.5.0",
+    "ejs": "^1.0.0",
+    "express": "^4.6.1",
+    "method-override": "^2.1.1",
+    "request": "^2.38.0"
+  }
+}
